@@ -4,25 +4,7 @@ This repository contains MEGPNM, an enhanced graph neural network (multi-scale e
 
 
 
-### Expected data format
 
-`main.py` expects a directory containing the following CSV files:
-
-- `train.csv`
-- `val.csv`
-- `test.csv`
-
-Each CSV must contain at least:
-
-- `smiles`: SMILES string
-- `standardized_value`: regression target (float)
-
-Minimal example:
-
-```csv
-smiles,standardized_value
-CCO,0.123
-```
 
 ## Installation
 
