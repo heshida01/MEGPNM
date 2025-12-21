@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Training outputs
+runs/
+gradcam_analysis/
+*.pth
+train_log.csv
+training_log.csv
+final_results.json
+
+# IDE
+.vscode/
+.idea/
