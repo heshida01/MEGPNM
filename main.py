@@ -560,22 +560,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""
- 1973  python main.py     --edge_fusion_type adaptive     --pooling hybrid     --use_edge_feat     --hidden_dim 512
- 1974  python main.py     --edge_fusion_type adaptive     --pooling hybrid     --use_edge_feat     --hidden_dim 768
- 1975  python main.py     --edge_fusion_type adaptive     --pooling hybrid     --use_edge_feat     --hidden_dim 523
- 1976  python main.py     --edge_fusion_type adaptive     --pooling hybrid     --use_edge_feat     --hidden_dim 512
- 1977  python main.py     --edge_fusion_type multiscale     --pooling hybrid     --use_edge_feat     --hidden_dim 512
- 1978  python main.py     --edge_fusion_type multiscale     --pooling standard     --use_edge_feat     --hidden_dim 512
- 1979  python main.py     --edge_fusion_type multiscale     --pooling gap     --use_edge_feat     --hidden_dim 512
- 1980  python main.py     --edge_fusion_type multiscale     --pooling gap     --use_edge_feat   
- 1981  python main.py     --edge_fusion_type adaptive     --pooling hybrid     --use_edge_feat     --hidden_dim 512
- 1982  python main.py     --edge_fusion_type  edgeattn     --pooling hybrid     --use_edge_feat     --hidden_dim 512
-python main.py     --edge_fusion_type multiscale     --pooling  multi    --use_edge_feat     --hidden_dim 512  --lr 6e-4 
-python main.py     --edge_fusion_type multiscale     --pooling  hybrid    --use_edge_feat     --hidden_dim 512  --lr 8e-4 
-python main.py     --edge_fusion_type multiscale     --pooling  hybrid    --use_edge_feat     --hidden_dim 512  --lr 8e-4
 
 
-python run_fragment_visualization.py --checkpoint best_model.pth --output_dir fragment_viz_test --overwrite
-
-"""
