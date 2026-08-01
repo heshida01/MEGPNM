@@ -1,0 +1,29 @@
+# Conda environment for MEGPNM.
+#
+#   conda env create -f environment.yml
+#   conda activate megpnm
+#
+# DGL is installed via pip from the official wheel index because the CUDA
+# builds are not published to PyPI. Change the cu121 / torch-2.4 parts of the
+# index URLs if you need a different CUDA version, and drop the `+cu121`
+# suffixes for a CPU-only install.
+
+name: megpnm
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=2.2
+  - pandas=2.3
+  - scipy=1.16
+  - scikit-learn=1.7
+  - tqdm=4.67
+  - rdkit=2025.09
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.4.0
+      - -f https://data.dgl.ai/wheels/torch-2.4/cu121/repo.html
+      - dgl==2.4.0

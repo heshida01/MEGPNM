@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+.conda/
+
+# Training outputs
+runs/
+checkpoints/
+*.pth
+train_log.csv
+training_log.csv
+final_results.json
+predictions.csv
+*.log
+
+# IDE
+.vscode/
+.idea/
