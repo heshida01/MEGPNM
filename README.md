@@ -51,5 +51,6 @@ python predict.py --data_csv dataset/random/test.csv \
 ```
 
 ## Citation
+He, S., Wei, L., Ye, W. et al. MEGPNM as a multiscale edge-aware GAT network with hybrid pooling predicting permeability of non-peptidic macrocycles. Commun Chem 9, 301 (2026). https://doi.org/10.1038/s42004-026-02194-1
 
 Please cite the MEGPNM paper if you use this code, and also cite [SweMacrocycleDB](https://swemacrocycledb.com/) if you use the data.
